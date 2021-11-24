@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.description,.price{
+    display: block;
+    margin-left: auto;
+}
+
+header{
+    display: grid;
+    padding-bottom: 2%;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: space-evenly;
+    background-color: aquamarine;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-self: center;
+    font-size: 2em;
+}
+
+li:hover{
+    background-color: rgb(43, 226, 89);
+    
+}
+div.logo{
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+ul{
+    width: 100%;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    justify-content: space-around;
+    list-style: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+.body2{ 
+    position: relative;
+    margin: 0;
+    background-color: blanchedalmond;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .8em;
+    margin: 0 0 1em 0;
+}
+.img img {
+    min-height: 13em;
+    max-height: 13em;
+    border-radius: 1.5em;
+}
+.img img {
+    width: 100%;
+    object-fit: cover;
+}
+.social{
+    display: grid;
+    position: relative;
+    width:10%;
+    float: left;
+    
+}
+social.li{
+    float: left;
+    width: 2em;
+    border-style: double;
+}
+a{
+    list-style: none;
+}
+a img {
+    width: 2em;
+}
+div.about{
+    margin-top:0px ;
+    border-style: ridge;
+}
+footer {
+    
+    width: 100%;
+}
